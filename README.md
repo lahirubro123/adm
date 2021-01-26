@@ -32,6 +32,8 @@ wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2J
 
 ## Installation NEW-ULTIMATE r6.3.4
 
+apt-get update && apt-get upgrade
+
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/instalar.sh; chmod 777 instalar.sh* && ./instalar.sh*
 
 ```
