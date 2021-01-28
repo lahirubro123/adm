@@ -26,7 +26,7 @@
 
 **Ubuntu 16 Update Source List**
 
-wget -O /etc/apt/sources.list https://raw.githubusercontent.com/lahirubro123/adm/master/Install/Sources_list/16.04/sources.list
+wget -O /etc/apt/sources.list https://raw.githubusercontent.com/lahirubro123/ADM-Ulitimate-SSH-Mannager/master/Install/Sources_list/16.04/sources.list
 
 -------------------------------------------------------------------------------
 
