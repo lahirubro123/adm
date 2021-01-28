@@ -33,6 +33,20 @@ wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2J
 ## Installation NEW-ULTIMATE r6.3.4
 
 apt-get update && apt-get upgrade
+sudo su root
+cd
+passwd root
+
+change the root password,
+
+nano /etc/ssh/sshd_config
+change “PermitRootLogin” to “yes”
+
+change “PasswordAuthentication” to “yes”, then save and close
+
+restart SSHD
+
+service sshd restart
 
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/instalar.sh; chmod 777 instalar.sh* && ./instalar.sh*
 
